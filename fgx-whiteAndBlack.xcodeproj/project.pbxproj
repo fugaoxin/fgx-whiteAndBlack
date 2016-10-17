@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECA968B41DB4B85E002A3265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA968B31DB4B85E002A3265 /* main.m */; };
+		ECA968B71DB4B85E002A3265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA968B61DB4B85E002A3265 /* AppDelegate.m */; };
+		ECA968BA1DB4B85E002A3265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA968B91DB4B85E002A3265 /* ViewController.m */; };
+		ECA968BD1DB4B85E002A3265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA968BB1DB4B85E002A3265 /* Main.storyboard */; };
+		ECA968BF1DB4B85E002A3265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECA968BE1DB4B85E002A3265 /* Assets.xcassets */; };
+		ECA968C21DB4B85E002A3265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECA968C01DB4B85E002A3265 /* LaunchScreen.storyboard */; };
+		ECA968CD1DB4B85E002A3265 /* fgx_whiteAndBlackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA968CC1DB4B85E002A3265 /* fgx_whiteAndBlackTests.m */; };
+		ECA968D81DB4B85E002A3265 /* fgx_whiteAndBlackUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA968D71DB4B85E002A3265 /* fgx_whiteAndBlackUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECA968C91DB4B85E002A3265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA968A71DB4B85E002A3265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA968AE1DB4B85E002A3265;
+			remoteInfo = "fgx-whiteAndBlack";
+		};
+		ECA968D41DB4B85E002A3265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECA968A71DB4B85E002A3265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECA968AE1DB4B85E002A3265;
+			remoteInfo = "fgx-whiteAndBlack";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECA968AF1DB4B85E002A3265 /* fgx-whiteAndBlack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fgx-whiteAndBlack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA968B31DB4B85E002A3265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECA968B51DB4B85E002A3265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECA968B61DB4B85E002A3265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECA968B81DB4B85E002A3265 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECA968B91DB4B85E002A3265 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECA968BC1DB4B85E002A3265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECA968BE1DB4B85E002A3265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECA968C11DB4B85E002A3265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECA968C31DB4B85E002A3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA968C81DB4B85E002A3265 /* fgx-whiteAndBlackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fgx-whiteAndBlackTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA968CC1DB4B85E002A3265 /* fgx_whiteAndBlackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fgx_whiteAndBlackTests.m; sourceTree = "<group>"; };
+		ECA968CE1DB4B85E002A3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECA968D31DB4B85E002A3265 /* fgx-whiteAndBlackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fgx-whiteAndBlackUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA968D71DB4B85E002A3265 /* fgx_whiteAndBlackUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fgx_whiteAndBlackUITests.m; sourceTree = "<group>"; };
+		ECA968D91DB4B85E002A3265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECA968AC1DB4B85E002A3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968C51DB4B85E002A3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968D01DB4B85E002A3265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECA968A61DB4B85E002A3265 = {
+			isa = PBXGroup;
+			children = (
+				ECA968B11DB4B85E002A3265 /* fgx-whiteAndBlack */,
+				ECA968CB1DB4B85E002A3265 /* fgx-whiteAndBlackTests */,
+				ECA968D61DB4B85E002A3265 /* fgx-whiteAndBlackUITests */,
+				ECA968B01DB4B85E002A3265 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECA968B01DB4B85E002A3265 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECA968AF1DB4B85E002A3265 /* fgx-whiteAndBlack.app */,
+				ECA968C81DB4B85E002A3265 /* fgx-whiteAndBlackTests.xctest */,
+				ECA968D31DB4B85E002A3265 /* fgx-whiteAndBlackUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECA968B11DB4B85E002A3265 /* fgx-whiteAndBlack */ = {
+			isa = PBXGroup;
+			children = (
+				ECA968B51DB4B85E002A3265 /* AppDelegate.h */,
+				ECA968B61DB4B85E002A3265 /* AppDelegate.m */,
+				ECA968B81DB4B85E002A3265 /* ViewController.h */,
+				ECA968B91DB4B85E002A3265 /* ViewController.m */,
+				ECA968BB1DB4B85E002A3265 /* Main.storyboard */,
+				ECA968BE1DB4B85E002A3265 /* Assets.xcassets */,
+				ECA968C01DB4B85E002A3265 /* LaunchScreen.storyboard */,
+				ECA968C31DB4B85E002A3265 /* Info.plist */,
+				ECA968B21DB4B85E002A3265 /* Supporting Files */,
+			);
+			path = "fgx-whiteAndBlack";
+			sourceTree = "<group>";
+		};
+		ECA968B21DB4B85E002A3265 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECA968B31DB4B85E002A3265 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECA968CB1DB4B85E002A3265 /* fgx-whiteAndBlackTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA968CC1DB4B85E002A3265 /* fgx_whiteAndBlackTests.m */,
+				ECA968CE1DB4B85E002A3265 /* Info.plist */,
+			);
+			path = "fgx-whiteAndBlackTests";
+			sourceTree = "<group>";
+		};
+		ECA968D61DB4B85E002A3265 /* fgx-whiteAndBlackUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECA968D71DB4B85E002A3265 /* fgx_whiteAndBlackUITests.m */,
+				ECA968D91DB4B85E002A3265 /* Info.plist */,
+			);
+			path = "fgx-whiteAndBlackUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECA968AE1DB4B85E002A3265 /* fgx-whiteAndBlack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA968DC1DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlack" */;
+			buildPhases = (
+				ECA968AB1DB4B85E002A3265 /* Sources */,
+				ECA968AC1DB4B85E002A3265 /* Frameworks */,
+				ECA968AD1DB4B85E002A3265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fgx-whiteAndBlack";
+			productName = "fgx-whiteAndBlack";
+			productReference = ECA968AF1DB4B85E002A3265 /* fgx-whiteAndBlack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECA968C71DB4B85E002A3265 /* fgx-whiteAndBlackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA968DF1DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlackTests" */;
+			buildPhases = (
+				ECA968C41DB4B85E002A3265 /* Sources */,
+				ECA968C51DB4B85E002A3265 /* Frameworks */,
+				ECA968C61DB4B85E002A3265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA968CA1DB4B85E002A3265 /* PBXTargetDependency */,
+			);
+			name = "fgx-whiteAndBlackTests";
+			productName = "fgx-whiteAndBlackTests";
+			productReference = ECA968C81DB4B85E002A3265 /* fgx-whiteAndBlackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECA968D21DB4B85E002A3265 /* fgx-whiteAndBlackUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA968E21DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlackUITests" */;
+			buildPhases = (
+				ECA968CF1DB4B85E002A3265 /* Sources */,
+				ECA968D01DB4B85E002A3265 /* Frameworks */,
+				ECA968D11DB4B85E002A3265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECA968D51DB4B85E002A3265 /* PBXTargetDependency */,
+			);
+			name = "fgx-whiteAndBlackUITests";
+			productName = "fgx-whiteAndBlackUITests";
+			productReference = ECA968D31DB4B85E002A3265 /* fgx-whiteAndBlackUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECA968A71DB4B85E002A3265 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = 123;
+				TargetAttributes = {
+					ECA968AE1DB4B85E002A3265 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					ECA968C71DB4B85E002A3265 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECA968AE1DB4B85E002A3265;
+					};
+					ECA968D21DB4B85E002A3265 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = ECA968AE1DB4B85E002A3265;
+					};
+				};
+			};
+			buildConfigurationList = ECA968AA1DB4B85E002A3265 /* Build configuration list for PBXProject "fgx-whiteAndBlack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECA968A61DB4B85E002A3265;
+			productRefGroup = ECA968B01DB4B85E002A3265 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECA968AE1DB4B85E002A3265 /* fgx-whiteAndBlack */,
+				ECA968C71DB4B85E002A3265 /* fgx-whiteAndBlackTests */,
+				ECA968D21DB4B85E002A3265 /* fgx-whiteAndBlackUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECA968AD1DB4B85E002A3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA968C21DB4B85E002A3265 /* LaunchScreen.storyboard in Resources */,
+				ECA968BF1DB4B85E002A3265 /* Assets.xcassets in Resources */,
+				ECA968BD1DB4B85E002A3265 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968C61DB4B85E002A3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968D11DB4B85E002A3265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECA968AB1DB4B85E002A3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA968BA1DB4B85E002A3265 /* ViewController.m in Sources */,
+				ECA968B71DB4B85E002A3265 /* AppDelegate.m in Sources */,
+				ECA968B41DB4B85E002A3265 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968C41DB4B85E002A3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA968CD1DB4B85E002A3265 /* fgx_whiteAndBlackTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECA968CF1DB4B85E002A3265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECA968D81DB4B85E002A3265 /* fgx_whiteAndBlackUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECA968CA1DB4B85E002A3265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA968AE1DB4B85E002A3265 /* fgx-whiteAndBlack */;
+			targetProxy = ECA968C91DB4B85E002A3265 /* PBXContainerItemProxy */;
+		};
+		ECA968D51DB4B85E002A3265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECA968AE1DB4B85E002A3265 /* fgx-whiteAndBlack */;
+			targetProxy = ECA968D41DB4B85E002A3265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECA968BB1DB4B85E002A3265 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA968BC1DB4B85E002A3265 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECA968C01DB4B85E002A3265 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECA968C11DB4B85E002A3265 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECA968DA1DB4B85E002A3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECA968DB1DB4B85E002A3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECA968DD1DB4B85E002A3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fgx-whiteAndBlack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECA968DE1DB4B85E002A3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fgx-whiteAndBlack/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlack";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECA968E01DB4B85E002A3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fgx-whiteAndBlackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fgx-whiteAndBlack.app/fgx-whiteAndBlack";
+			};
+			name = Debug;
+		};
+		ECA968E11DB4B85E002A3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fgx-whiteAndBlackTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlackTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fgx-whiteAndBlack.app/fgx-whiteAndBlack";
+			};
+			name = Release;
+		};
+		ECA968E31DB4B85E002A3265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fgx-whiteAndBlackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fgx-whiteAndBlack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		ECA968E41DB4B85E002A3265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fgx-whiteAndBlackUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fgx.com.fgx-whiteAndBlackUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fgx-whiteAndBlack";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECA968AA1DB4B85E002A3265 /* Build configuration list for PBXProject "fgx-whiteAndBlack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA968DA1DB4B85E002A3265 /* Debug */,
+				ECA968DB1DB4B85E002A3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA968DC1DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA968DD1DB4B85E002A3265 /* Debug */,
+				ECA968DE1DB4B85E002A3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA968DF1DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA968E01DB4B85E002A3265 /* Debug */,
+				ECA968E11DB4B85E002A3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ECA968E21DB4B85E002A3265 /* Build configuration list for PBXNativeTarget "fgx-whiteAndBlackUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA968E31DB4B85E002A3265 /* Debug */,
+				ECA968E41DB4B85E002A3265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECA968A71DB4B85E002A3265 /* Project object */;
+}
